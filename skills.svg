@@ -1,34 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="250" viewBox="0 0 600 250">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="250" viewBox="0 0 800 250">
   <style>
-    .text { font-family: 'Segoe UI', Ubuntu, sans-serif; fill: #c9d1d9; font-size: 15px; font-weight: 500; }
-    .pct { font-family: 'Segoe UI', Ubuntu, monospace; fill: #8b949e; font-size: 15px; font-weight: bold; }
+    .text { font-family: 'Segoe UI', Ubuntu, sans-serif; fill: #c9d1d9; font-size: 15px; font-weight: 500; text-anchor: end; }
+    .pct { font-family: 'Segoe UI', Ubuntu, monospace; fill: #8b949e; font-size: 15px; font-weight: bold; text-anchor: end; }
     
     .sq { fill: #238636; rx: 4; }
     .empty { opacity: 0.15; }
     .filled { opacity: 0; animation: fadeIn 0.4s ease-out forwards; }
     
-    .d1 { animation-delay: 0.1s; }
-    .d2 { animation-delay: 0.2s; }
-    .d3 { animation-delay: 0.3s; }
-    .d4 { animation-delay: 0.4s; }
-    .d5 { animation-delay: 0.5s; }
-    .d6 { animation-delay: 0.6s; }
-    .d7 { animation-delay: 0.7s; }
-    .d8 { animation-delay: 0.8s; }
-    .d9 { animation-delay: 0.9s; }
-    .d10 { animation-delay: 1.0s; }
+    .d1 { animation-delay: 0.1s; } .d2 { animation-delay: 0.2s; }
+    .d3 { animation-delay: 0.3s; } .d4 { animation-delay: 0.4s; }
+    .d5 { animation-delay: 0.5s; } .d6 { animation-delay: 0.6s; }
+    .d7 { animation-delay: 0.7s; } .d8 { animation-delay: 0.8s; }
+    .d9 { animation-delay: 0.9s; } .d10 { animation-delay: 1.0s; }
 
-    @keyframes fadeIn {
-      to { opacity: 1; }
-    }
+    @keyframes fadeIn { to { opacity: 1; } }
+
+    /* Circuit Backbone */
+    .circuit { stroke: #30363d; stroke-width: 2; fill: none; }
+    .data-flow { stroke: #238636; stroke-width: 2; stroke-dasharray: 6, 6; animation: flowAnim 4s linear infinite; fill: none; }
+    @keyframes flowAnim { from { stroke-dashoffset: 100; } to { stroke-dashoffset: 0; } }
+    .node { fill: #238636; }
   </style>
 
   <rect width="100%" height="100%" fill="transparent" />
 
+  <!-- Backbone -->
+  <path d="M 400,0 L 400,250" class="circuit" />
+  <path d="M 400,0 L 400,250" class="data-flow" />
+
   <!-- Python 80% -->
-  <text x="20" y="45" class="text">Python</text>
-  <text x="180" y="45" class="pct">80%</text>
-  <g transform="translate(230, 31)">
+  <text x="320" y="45" class="text">Python</text>
+  <text x="375" y="45" class="pct">80%</text>
+  <line x1="400" y1="40" x2="420" y2="40" class="circuit" />
+  <circle cx="400" cy="40" r="4" class="node" />
+  <g transform="translate(430, 31)">
+    <!-- 8 filled, 2 empty -->
     <rect x="0" y="0" width="18" height="18" class="sq filled d1" />
     <rect x="25" y="0" width="18" height="18" class="sq filled d2" />
     <rect x="50" y="0" width="18" height="18" class="sq filled d3" />
@@ -42,9 +48,11 @@
   </g>
   
   <!-- Networking 70% -->
-  <text x="20" y="95" class="text">Networking (CCNA)</text>
-  <text x="180" y="95" class="pct">70%</text>
-  <g transform="translate(230, 81)">
+  <text x="320" y="95" class="text">Networking</text>
+  <text x="375" y="95" class="pct">70%</text>
+  <line x1="400" y1="90" x2="420" y2="90" class="circuit" />
+  <circle cx="400" cy="90" r="4" class="node" />
+  <g transform="translate(430, 81)">
     <rect x="0" y="0" width="18" height="18" class="sq filled d1" />
     <rect x="25" y="0" width="18" height="18" class="sq filled d2" />
     <rect x="50" y="0" width="18" height="18" class="sq filled d3" />
@@ -58,9 +66,11 @@
   </g>
 
   <!-- Linux & Bash 80% -->
-  <text x="20" y="145" class="text">Linux &amp; Bash</text>
-  <text x="180" y="145" class="pct">80%</text>
-  <g transform="translate(230, 131)">
+  <text x="320" y="145" class="text">Linux</text>
+  <text x="375" y="145" class="pct">80%</text>
+  <line x1="400" y1="140" x2="420" y2="140" class="circuit" />
+  <circle cx="400" cy="140" r="4" class="node" />
+  <g transform="translate(430, 131)">
     <rect x="0" y="0" width="18" height="18" class="sq filled d1" />
     <rect x="25" y="0" width="18" height="18" class="sq filled d2" />
     <rect x="50" y="0" width="18" height="18" class="sq filled d3" />
@@ -74,9 +84,11 @@
   </g>
 
   <!-- AI & Automation 60% -->
-  <text x="20" y="195" class="text">AI &amp; Automation</text>
-  <text x="180" y="195" class="pct">60%</text>
-  <g transform="translate(230, 181)">
+  <text x="320" y="195" class="text">AI &amp; Auto</text>
+  <text x="375" y="195" class="pct">60%</text>
+  <line x1="400" y1="190" x2="420" y2="190" class="circuit" />
+  <circle cx="400" cy="190" r="4" class="node" />
+  <g transform="translate(430, 181)">
     <rect x="0" y="0" width="18" height="18" class="sq filled d1" />
     <rect x="25" y="0" width="18" height="18" class="sq filled d2" />
     <rect x="50" y="0" width="18" height="18" class="sq filled d3" />

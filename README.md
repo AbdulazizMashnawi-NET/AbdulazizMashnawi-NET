@@ -21,7 +21,7 @@ Computer & Network Engineering Student
   </a>
 </p>
 
----
+<div align="center"><img src="cable-down.svg" /></div>
 
 ## About Me
 
@@ -30,7 +30,7 @@ Computer & Network Engineering Student
 - Currently studying and preparing for CCNA
 - Enthusiastic about AI & Automation
 
----
+<div align="center"><img src="cable-down.svg" /></div>
 
 ## Skills Proficiency
 
@@ -38,7 +38,7 @@ Computer & Network Engineering Student
   <img src="skills.svg" alt="Skills Progress" />
 </div>
 
----
+<div align="center"><img src="cable-down.svg" /></div>
 
 ## Tech Stack
 
@@ -52,7 +52,7 @@ Computer & Network Engineering Student
 <img src="https://skillicons.dev/icons?i=linux,bash,docker,git,github,vscode,nodejs" />
 </p>
 
----
+<div align="center"><img src="cable-down.svg" /></div>
 
 ## Pinned Repositories
 
@@ -63,7 +63,7 @@ Computer & Network Engineering Student
     <img src="https://github-stats-extended.vercel.app/api/pin/?username=AbdulazizMashnawi-NET&repo=Jazan-Uni-SUC-Manager&theme=github_dark&hide_border=true" />
   </a>
 
----
+<div align="center"><img src="cable-down.svg" /></div>
 
 ## Contribution Graph
 
