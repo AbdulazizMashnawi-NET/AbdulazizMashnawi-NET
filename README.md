@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋 I'm Abdulaziz</h1>
+<h1 align="center">Hi, I'm Abdulaziz</h1>
 
 <h3 align="center">
 Computer & Network Engineering Student
@@ -19,40 +19,38 @@ Computer & Network Engineering Student
 
 ---
 
-## 🚀 About Me
+## About Me
 
-- 🎓 Computer & Network Engineering Student
-- 🌐 Deeply interested in **Networking** & **Linux**
-- 📚 Currently studying and preparing for **CCNA**
-- 🤖 Enthusiastic about **AI** & **Automation**
+- Computer & Network Engineering Student
+- Deeply interested in Networking & Linux
+- Currently studying and preparing for CCNA
+- Enthusiastic about AI & Automation
 
 ---
 
-## 🛠 Tech Stack
+## Skills Proficiency
 
-### 💻 Languages & Development
+<div align="center">
+  <img src="skills.svg" alt="Skills Progress" />
+</div>
+
+---
+
+## Tech Stack
+
+### Languages & Development
 <p>
 <img src="https://skillicons.dev/icons?i=python,typescript,js,html,css" />
 </p>
 
-### ⚙️ Systems, Tools & DevOps
+### Systems, Tools & DevOps
 <p>
 <img src="https://skillicons.dev/icons?i=linux,bash,docker,git,github,vscode,nodejs" />
 </p>
 
 ---
 
-## 📊 Streak
-
-
-<br>
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AbdulazizMashnawi-NET&theme=radical&hide_border=true" alt="GitHub Streak" />
-</div>
-
----
-
-
+## Contribution Graph
 
 <div align="center">
   <picture>
@@ -65,5 +63,5 @@ Computer & Network Engineering Student
 <br>
 
 <p align="center">
-⭐ Thanks for visiting my profile!
+Thanks for visiting my profile!
 </p>
