@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="70" viewBox="0 0 800 70">
+  <style>
+    .title { font-family: 'Segoe UI', Ubuntu, sans-serif; fill: #c9d1d9; font-size: 22px; font-weight: bold; }
+    
+    .circuit { stroke: #30363d; stroke-width: 2; fill: none; }
+    .data-flow { stroke: #238636; stroke-width: 2; stroke-dasharray: 6, 6; animation: flowAnim 4s linear infinite; fill: none; }
+    @keyframes flowAnim { from { stroke-dashoffset: 100; } to { stroke-dashoffset: 0; } }
+    .node { fill: #238636; }
+  </style>
+
+  <path d="M 5,0 L 5,70" class="circuit" />
+  <path d="M 5,0 L 5,70" class="data-flow" />
+
+  <line x1="5" y1="40" x2="20" y2="40" class="circuit" />
+  <circle cx="5" cy="40" r="4" class="node" />
+  <text x="30" y="45" class="title">Pinned Repositories</text>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="220" viewBox="0 0 800 220">
+  <style>
+    .title { font-family: 'Segoe UI', Ubuntu, sans-serif; fill: #c9d1d9; font-size: 22px; font-weight: bold; }
+    .text { font-family: 'Segoe UI', Ubuntu, sans-serif; fill: #8b949e; font-size: 15px; }
+    
+    /* Circuit Backbone */
+    .circuit { stroke: #30363d; stroke-width: 2; fill: none; }
+    .data-flow { stroke: #238636; stroke-width: 2; stroke-dasharray: 6, 6; animation: flowAnim 4s linear infinite; fill: none; }
+    @keyframes flowAnim { from { stroke-dashoffset: 100; } to { stroke-dashoffset: 0; } }
+    .node { fill: #238636; }
+    .pulse { fill: transparent; stroke: #238636; stroke-width: 2; animation: pulseAnim 2s infinite; }
+    
+    @keyframes pulseAnim {
+      0% { transform: scale(1); opacity: 1; stroke-width: 2px; }
+      100% { transform: scale(2.5); opacity: 0; stroke-width: 0.5px; }
+    }
+  </style>
+
+  <!-- Backbone -->
+  <path d="M 5,0 L 5,220" class="circuit" />
+  <path d="M 5,0 L 5,220" class="data-flow" />
+
+  <!-- Title -->
+  <text x="30" y="30" class="title">About Me</text>
+  
+  <!-- Bullet 1 -->
+  <g transform="translate(0, 70)">
+    <line x1="5" y1="0" x2="20" y2="0" class="circuit" />
+    <circle cx="5" cy="0" r="4" class="node" />
+    <circle cx="20" cy="0" r="3" class="node" />
+    <text x="35" y="5" class="text">Computer &amp; Network Engineering Student</text>
+  </g>
+
+  <!-- Bullet 2 -->
+  <g transform="translate(0, 110)">
+    <line x1="5" y1="0" x2="20" y2="0" class="circuit" />
+    <circle cx="5" cy="0" r="4" class="node" />
+    <circle cx="20" cy="0" r="3" class="node" />
+    <text x="35" y="5" class="text">Deeply interested in Networking &amp; Linux</text>
+  </g>
+
+  <!-- Bullet 3 -->
+  <g transform="translate(0, 150)">
+    <line x1="5" y1="0" x2="20" y2="0" class="circuit" />
+    <circle cx="5" cy="0" r="4" class="node" />
+    <circle cx="20" cy="0" r="3" class="node" />
+    <text x="35" y="5" class="text">Currently studying and preparing for CCNA</text>
+  </g>
+
+  <!-- Bullet 4 -->
+  <g transform="translate(0, 190)">
+    <line x1="5" y1="0" x2="20" y2="0" class="circuit" />
+    <circle cx="5" cy="0" r="4" class="node" />
+    <circle cx="20" cy="0" r="3" class="node" />
+    <text x="35" y="5" class="text">Enthusiastic about AI &amp; Automation</text>
+  </g>
+</svg>

@@ -20,36 +20,23 @@ Computer & Network Engineering Student
 
 <img src="cable-down.svg" />
 
-## About Me
-
-- Computer & Network Engineering Student
-- Deeply interested in Networking & Linux
-- Currently studying and preparing for CCNA
-- Enthusiastic about AI & Automation
+<img src="about.svg?v=1" />
 
 <img src="cable-down.svg?v=2" />
 
-## Skills Proficiency
-
-<img src="skills.svg?v=2" alt="Skills Progress" />
+<img src="skills.svg?v=5" alt="Skills Progress" />
 
 <img src="cable-down.svg?v=2" />
 
-## Tech Stack
+<img src="tech-stack.svg?v=1" />
 
-### Languages & Development
-<p>
 <img src="https://skillicons.dev/icons?i=python,typescript,js,html,css" />
-</p>
-
-### Systems, Tools & DevOps
-<p>
+<br><br>
 <img src="https://skillicons.dev/icons?i=linux,bash,docker,git,github,vscode,nodejs" />
-</p>
 
 <img src="cable-down.svg?v=2" />
 
-## Pinned Repositories
+<img src="pinned-repos.svg?v=1" />
 
   <a href="https://github.com/AbdulazizMashnawi-NET/Smart-University-Network-Design">
     <img src="https://github-stats-extended.vercel.app/api/pin/?username=AbdulazizMashnawi-NET&repo=Smart-University-Network-Design&theme=github_dark&hide_border=true" />
