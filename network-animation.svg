@@ -35,7 +35,7 @@
 
   <!-- Network Lines -->
   <!-- Input from the above cable -->
-  <path d="M 5,0 L 5,80 L 200,80" class="line" />
+  <path d="M 20,0 L 20,80 L 200,80" class="line" />
   
   <!-- Line from Local to Gateway -->
   <line x1="200" y1="80" x2="400" y2="80" class="line" />

@@ -20,15 +20,7 @@ Computer & Network Engineering Student
 
 <img src="cable-down.svg" />
 
-<img src="about.svg?v=1" />
-
-<img src="cable-down.svg?v=2" />
-
-<img src="skills.svg?v=5" alt="Skills Progress" />
-
-<img src="cable-down.svg?v=2" />
-
-<img src="tech-stack.svg?v=1" />
+<img src="main-circuit.svg?v=1" />
 
 <img src="https://skillicons.dev/icons?i=python,typescript,js,html,css" />
 <br><br>
@@ -36,7 +28,7 @@ Computer & Network Engineering Student
 
 <img src="cable-down.svg?v=2" />
 
-<img src="pinned-repos.svg?v=1" />
+<img src="pinned-repos.svg?v=3" />
 
   <a href="https://github.com/AbdulazizMashnawi-NET/Smart-University-Network-Design">
     <img src="https://github-stats-extended.vercel.app/api/pin/?username=AbdulazizMashnawi-NET&repo=Smart-University-Network-Design&theme=github_dark&hide_border=true" />
@@ -60,7 +52,7 @@ Computer & Network Engineering Student
 <br>
 
 <div align="center">
-  <img src="network-animation.svg?v=2" alt="Network Animation" width="800" />
+  <img src="network-animation.svg?v=5" alt="Network Animation" width="800" />
 </div>
 
 <p align="center">
