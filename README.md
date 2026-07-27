@@ -42,7 +42,7 @@ Computer & Network Engineering Student
 
 ---
 
-## 📊 GitHub Stats
+## 📊 Streak
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=AbdulazizMashnawi-NET&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
