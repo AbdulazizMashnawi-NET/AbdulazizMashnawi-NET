@@ -4,6 +4,6 @@
     .data-flow { stroke: #238636; stroke-width: 2; stroke-dasharray: 6, 6; animation: flowAnim 2s linear infinite; fill: none; }
     @keyframes flowAnim { from { stroke-dashoffset: 40; } to { stroke-dashoffset: 0; } }
   </style>
-  <path d="M 20,0 L 20,40" class="circuit" />
-  <path d="M 20,0 L 20,40" class="data-flow" />
+  <path d="M 5,0 L 5,40" class="circuit" />
+  <path d="M 5,0 L 5,40" class="data-flow" />
 </svg>
