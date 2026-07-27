@@ -1,6 +1,4 @@
-<div align="center">
-  <img src="network-animation.svg?v=6" alt="Network Animation" width="800" />
-</div>
+
 
 <h1 align="center">Hi, I'm Abdulaziz</h1>
 
@@ -35,7 +33,7 @@ Computer & Network Engineering Student
 ## Skills Proficiency
 
 <div align="center">
-  <img src="skills.svg?v=6" alt="Skills Progress" />
+  <img src="skills.svg?v=8" alt="Skills Progress" />
 </div>
 
 <br>
@@ -78,6 +76,10 @@ Computer & Network Engineering Student
 </div>
 
 <br>
+
+<div align="center">
+  <img src="network-animation.svg?v=8" alt="Network Animation" width="800" />
+</div>
 
 <p align="center">
 Thanks for visiting my profile!

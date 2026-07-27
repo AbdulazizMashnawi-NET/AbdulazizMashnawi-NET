@@ -24,16 +24,16 @@
 
   <rect width="100%" height="100%" fill="transparent" />
 
-  <!-- Backbone -->
-  <path d="M 150,20 L 150,230" class="circuit" />
-  <path d="M 150,20 L 150,230" class="data-flow" />
+  <!-- Backbone (Only exactly between first and last node: y=40 to y=190) -->
+  <path d="M 180,40 L 180,190" class="circuit" />
+  <path d="M 180,40 L 180,190" class="data-flow" />
 
   <!-- Python 80% -->
   <text x="30" y="45" class="text">Python</text>
-  <text x="100" y="45" class="pct">80%</text>
-  <line x1="150" y1="40" x2="165" y2="40" class="circuit" />
-  <circle cx="150" cy="40" r="4" class="node" />
-  <g transform="translate(180, 31)">
+  <text x="130" y="45" class="pct">80%</text>
+  <line x1="180" y1="40" x2="195" y2="40" class="circuit" />
+  <circle cx="180" cy="40" r="4" class="node" />
+  <g transform="translate(210, 31)">
     <!-- 8 filled, 2 empty -->
     <rect x="0" y="0" width="18" height="18" class="sq filled d1" />
     <rect x="25" y="0" width="18" height="18" class="sq filled d2" />
@@ -49,10 +49,10 @@
   
   <!-- Networking 70% -->
   <text x="30" y="95" class="text">Networking</text>
-  <text x="100" y="95" class="pct">70%</text>
-  <line x1="150" y1="90" x2="165" y2="90" class="circuit" />
-  <circle cx="150" cy="90" r="4" class="node" />
-  <g transform="translate(180, 81)">
+  <text x="130" y="95" class="pct">70%</text>
+  <line x1="180" y1="90" x2="195" y2="90" class="circuit" />
+  <circle cx="180" cy="90" r="4" class="node" />
+  <g transform="translate(210, 81)">
     <rect x="0" y="0" width="18" height="18" class="sq filled d1" />
     <rect x="25" y="0" width="18" height="18" class="sq filled d2" />
     <rect x="50" y="0" width="18" height="18" class="sq filled d3" />
@@ -67,10 +67,10 @@
 
   <!-- Linux & Bash 80% -->
   <text x="30" y="145" class="text">Linux</text>
-  <text x="100" y="145" class="pct">80%</text>
-  <line x1="150" y1="140" x2="165" y2="140" class="circuit" />
-  <circle cx="150" cy="140" r="4" class="node" />
-  <g transform="translate(180, 131)">
+  <text x="130" y="145" class="pct">80%</text>
+  <line x1="180" y1="140" x2="195" y2="140" class="circuit" />
+  <circle cx="180" cy="140" r="4" class="node" />
+  <g transform="translate(210, 131)">
     <rect x="0" y="0" width="18" height="18" class="sq filled d1" />
     <rect x="25" y="0" width="18" height="18" class="sq filled d2" />
     <rect x="50" y="0" width="18" height="18" class="sq filled d3" />
@@ -85,10 +85,10 @@
 
   <!-- AI & Automation 60% -->
   <text x="30" y="195" class="text">AI &amp; Auto</text>
-  <text x="100" y="195" class="pct">60%</text>
-  <line x1="150" y1="190" x2="165" y2="190" class="circuit" />
-  <circle cx="150" cy="190" r="4" class="node" />
-  <g transform="translate(180, 181)">
+  <text x="130" y="195" class="pct">60%</text>
+  <line x1="180" y1="190" x2="195" y2="190" class="circuit" />
+  <circle cx="180" cy="190" r="4" class="node" />
+  <g transform="translate(210, 181)">
     <rect x="0" y="0" width="18" height="18" class="sq filled d1" />
     <rect x="25" y="0" width="18" height="18" class="sq filled d2" />
     <rect x="50" y="0" width="18" height="18" class="sq filled d3" />
