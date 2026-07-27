@@ -29,8 +29,8 @@
       to { stroke-dashoffset: 100; }
     }
     
-    .text { fill: #c9d1d9; font-family: monospace; font-size: 16px; font-weight: bold; text-anchor: middle; }
-    .subtext { fill: #8b949e; font-family: monospace; font-size: 13px; text-anchor: middle; }
+    .text { fill: #c9d1d9; font-family: 'Fira Code', Consolas, 'Courier New', monospace; font-size: 15px; font-weight: bold; text-anchor: middle; }
+    .subtext { fill: #8b949e; font-family: 'Fira Code', Consolas, 'Courier New', monospace; font-size: 13px; text-anchor: middle; }
   </style>
 
   <!-- Line from Local to Gateway -->

@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="250" viewBox="0 0 600 250">
   <style>
-    .text { font-family: 'Segoe UI', Ubuntu, sans-serif; fill: #c9d1d9; font-size: 15px; font-weight: 500; text-anchor: start; }
-    .pct { font-family: 'Segoe UI', Ubuntu, monospace; fill: #8b949e; font-size: 15px; font-weight: bold; text-anchor: start; }
+    .text { font-family: 'Fira Code', Consolas, 'Courier New', monospace; fill: #c9d1d9; font-size: 14px; font-weight: bold; text-anchor: start; }
+    .pct { font-family: 'Fira Code', Consolas, 'Courier New', monospace; fill: #8b949e; font-size: 14px; font-weight: bold; text-anchor: start; }
     
     .sq { fill: #238636; rx: 4; }
     .empty { opacity: 0.15; }

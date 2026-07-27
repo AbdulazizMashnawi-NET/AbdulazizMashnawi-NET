@@ -49,7 +49,7 @@ Computer & Network Engineering Student
 ## Skills Proficiency
 
 <div align="center">
-  <img src="skills.svg?v=8" alt="Skills Progress" />
+  <img src="skills.svg?v=9" alt="Skills Progress" />
 </div>
 
 <br>
@@ -102,7 +102,7 @@ Computer & Network Engineering Student
 <br>
 
 <div align="center">
-  <img src="network-animation.svg?v=8" alt="Network Animation" width="800" />
+  <img src="network-animation.svg?v=9" alt="Network Animation" width="800" />
 </div>
 
 <p align="center">
