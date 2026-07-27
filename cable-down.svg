@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="40" viewBox="0 0 100 40">
-  <style>
-    .circuit { stroke: #30363d; stroke-width: 2; fill: none; }
-    .data-flow { stroke: #238636; stroke-width: 2; stroke-dasharray: 6, 6; animation: flowAnim 2s linear infinite; fill: none; }
-    @keyframes flowAnim { from { stroke-dashoffset: 40; } to { stroke-dashoffset: 0; } }
-  </style>
-  <path d="M 5,0 L 5,40" class="circuit" />
-  <path d="M 5,0 L 5,40" class="data-flow" />
-</svg>

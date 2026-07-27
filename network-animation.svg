@@ -33,17 +33,13 @@
     .subtext { fill: #8b949e; font-family: monospace; font-size: 13px; text-anchor: middle; }
   </style>
 
-  <!-- Network Lines -->
-  <!-- Input from the above cable -->
-  <path d="M 20,0 L 20,80 L 200,80" class="line" />
-  
   <!-- Line from Local to Gateway -->
-  <line x1="200" y1="80" x2="400" y2="80" class="line" />
+  <line x1="200" y1="100" x2="400" y2="100" class="line" />
   <!-- Line from Gateway to Internet -->
-  <line x1="400" y1="80" x2="600" y2="80" class="line-reverse" />
+  <line x1="400" y1="100" x2="600" y2="100" class="line-reverse" />
 
   <!-- Node 1 (Local) -->
-  <g transform="translate(200, 80)">
+  <g transform="translate(200, 100)">
     <circle cx="0" cy="0" r="15" class="pulse-green" />
     <circle cx="0" cy="0" r="15" class="pulse2-green" />
     <circle cx="0" cy="0" r="15" class="node-green" />
@@ -52,14 +48,14 @@
   </g>
 
   <!-- Node 2 (Router) -->
-  <g transform="translate(400, 80)">
+  <g transform="translate(400, 100)">
     <rect x="-20" y="-15" width="40" height="30" rx="5" class="node-blue" />
     <text x="0" y="45" class="text">10.0.0.1</text>
     <text x="0" y="65" class="subtext">Core Router</text>
   </g>
 
   <!-- Node 3 (Internet) -->
-  <g transform="translate(600, 80)">
+  <g transform="translate(600, 100)">
     <circle cx="0" cy="0" r="15" class="pulse-red" />
     <circle cx="0" cy="0" r="15" class="pulse2-red" />
     <circle cx="0" cy="0" r="15" class="node-red" />

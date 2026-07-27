@@ -1,3 +1,6 @@
+<div align="center">
+  <img src="network-animation.svg?v=6" alt="Network Animation" width="800" />
+</div>
 
 <h1 align="center">Hi, I'm Abdulaziz</h1>
 
@@ -18,26 +21,51 @@ Computer & Network Engineering Student
   </a>
 </p>
 
-<img src="cable-down.svg" />
+<br>
 
-<img src="main-circuit.svg?v=1" />
+## About Me
 
+- Computer & Network Engineering Student
+- Deeply interested in Networking & Linux
+- Currently studying and preparing for CCNA
+- Enthusiastic about AI & Automation
+
+<br>
+
+## Skills Proficiency
+
+<div align="center">
+  <img src="skills.svg?v=6" alt="Skills Progress" />
+</div>
+
+<br>
+
+## Tech Stack
+
+### Languages & Development
+<p>
 <img src="https://skillicons.dev/icons?i=python,typescript,js,html,css" />
-<br><br>
+</p>
+
+### Systems, Tools & DevOps
+<p>
 <img src="https://skillicons.dev/icons?i=linux,bash,docker,git,github,vscode,nodejs" />
+</p>
 
-<img src="cable-down.svg?v=2" />
+<br>
 
-<img src="pinned-repos.svg?v=3" />
+## Pinned Repositories
 
+<div align="center">
   <a href="https://github.com/AbdulazizMashnawi-NET/Smart-University-Network-Design">
     <img src="https://github-stats-extended.vercel.app/api/pin/?username=AbdulazizMashnawi-NET&repo=Smart-University-Network-Design&theme=github_dark&hide_border=true" />
   </a>
   <a href="https://github.com/AbdulazizMashnawi-NET/Jazan-Uni-SUC-Manager">
     <img src="https://github-stats-extended.vercel.app/api/pin/?username=AbdulazizMashnawi-NET&repo=Jazan-Uni-SUC-Manager&theme=github_dark&hide_border=true" />
   </a>
+</div>
 
-<img src="cable-down.svg?v=2" />
+<br>
 
 ## Contribution Graph
 
@@ -50,10 +78,6 @@ Computer & Network Engineering Student
 </div>
 
 <br>
-
-<div align="center">
-  <img src="network-animation.svg?v=5" alt="Network Animation" width="800" />
-</div>
 
 <p align="center">
 Thanks for visiting my profile!
