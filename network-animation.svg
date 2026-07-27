@@ -17,8 +17,8 @@
       100% { transform: scale(4); opacity: 0; stroke-width: 0.5px; }
     }
 
-    .line { stroke: #30363d; stroke-width: 2; stroke-dasharray: 8, 8; animation: dashAnim 5s linear infinite; }
-    .line-reverse { stroke: #30363d; stroke-width: 2; stroke-dasharray: 8, 8; animation: dashAnimReverse 5s linear infinite; }
+    .line { stroke: #30363d; stroke-width: 2; stroke-dasharray: 8, 8; animation: dashAnim 5s linear infinite; fill: none; }
+    .line-reverse { stroke: #30363d; stroke-width: 2; stroke-dasharray: 8, 8; animation: dashAnimReverse 5s linear infinite; fill: none; }
     
     @keyframes dashAnim {
       from { stroke-dashoffset: 100; }
@@ -34,6 +34,9 @@
   </style>
 
   <!-- Network Lines -->
+  <!-- Input from the above cable -->
+  <path d="M 20,0 L 20,80 L 200,80" class="line" />
+  
   <!-- Line from Local to Gateway -->
   <line x1="200" y1="80" x2="400" y2="80" class="line" />
   <!-- Line from Gateway to Internet -->

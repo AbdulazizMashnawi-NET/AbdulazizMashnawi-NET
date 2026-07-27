@@ -1,6 +1,3 @@
-<div align="center">
-  <img src="network-animation.svg" alt="Network Animation" width="800" />
-</div>
 
 <h1 align="center">Hi, I'm Abdulaziz</h1>
 
@@ -21,7 +18,7 @@ Computer & Network Engineering Student
   </a>
 </p>
 
-<div align="center"><img src="cable-down.svg" /></div>
+<img src="cable-down.svg" />
 
 ## About Me
 
@@ -30,15 +27,13 @@ Computer & Network Engineering Student
 - Currently studying and preparing for CCNA
 - Enthusiastic about AI & Automation
 
-<div align="center"><img src="cable-down.svg" /></div>
+<img src="cable-down.svg" />
 
 ## Skills Proficiency
 
-<div align="center">
-  <img src="skills.svg" alt="Skills Progress" />
-</div>
+<img src="skills.svg" alt="Skills Progress" />
 
-<div align="center"><img src="cable-down.svg" /></div>
+<img src="cable-down.svg" />
 
 ## Tech Stack
 
@@ -52,7 +47,7 @@ Computer & Network Engineering Student
 <img src="https://skillicons.dev/icons?i=linux,bash,docker,git,github,vscode,nodejs" />
 </p>
 
-<div align="center"><img src="cable-down.svg" /></div>
+<img src="cable-down.svg" />
 
 ## Pinned Repositories
 
@@ -63,7 +58,7 @@ Computer & Network Engineering Student
     <img src="https://github-stats-extended.vercel.app/api/pin/?username=AbdulazizMashnawi-NET&repo=Jazan-Uni-SUC-Manager&theme=github_dark&hide_border=true" />
   </a>
 
-<div align="center"><img src="cable-down.svg" /></div>
+<img src="cable-down.svg" />
 
 ## Contribution Graph
 
@@ -76,6 +71,10 @@ Computer & Network Engineering Student
 </div>
 
 <br>
+
+<div align="center">
+  <img src="network-animation.svg" alt="Network Animation" width="800" />
+</div>
 
 <p align="center">
 Thanks for visiting my profile!
