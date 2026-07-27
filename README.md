@@ -30,6 +30,22 @@ Computer & Network Engineering Student
 
 <br>
 
+## Certifications & Goals
+
+**Obtained Certifications:**
+<p>
+  <img src="https://img.shields.io/badge/Cisco-Python_Essentials_1-238636?style=for-the-badge&logo=cisco&logoColor=white" alt="Cisco Python 1" />
+  <img src="https://img.shields.io/badge/Cisco-Python_Essentials_2-238636?style=for-the-badge&logo=cisco&logoColor=white" alt="Cisco Python 2" />
+</p>
+
+**In Progress / Goals:**
+<p>
+  <img src="https://img.shields.io/badge/Goal-CCNA-005073?style=for-the-badge&logo=cisco&logoColor=white" alt="CCNA Goal" />
+  <img src="https://img.shields.io/badge/Goal-AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS Goal" />
+</p>
+
+<br>
+
 ## Skills Proficiency
 
 <div align="center">
@@ -49,6 +65,14 @@ Computer & Network Engineering Student
 <p>
 <img src="https://skillicons.dev/icons?i=linux,bash,docker,git,github,vscode,nodejs" />
 </p>
+
+<br>
+
+## Top Languages
+
+<div align="center">
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=AbdulazizMashnawi-NET&layout=compact&theme=github_dark&hide_border=true" alt="Top Languages" />
+</div>
 
 <br>
 
