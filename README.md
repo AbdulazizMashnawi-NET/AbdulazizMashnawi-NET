@@ -44,10 +44,7 @@ Computer & Network Engineering Student
 
 ## 📊 Streak
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AbdulazizMashnawi-NET&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbdulazizMashnawi-NET&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
-</div>
+
 <br>
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=AbdulazizMashnawi-NET&theme=radical&hide_border=true" alt="GitHub Streak" />
@@ -55,7 +52,7 @@ Computer & Network Engineering Student
 
 ---
 
-## 🐍 Contribution Graph Snake
+
 
 <div align="center">
   <picture>
