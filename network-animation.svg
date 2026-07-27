@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+  <rect width="800" height="200" fill="#0d1117" rx="10"/>
+
+  <style>
+    .node-green { fill: #238636; }
+    .node-blue { fill: #58a6ff; }
+    .node-red { fill: #e34c26; }
+    
+    .pulse-green { fill: transparent; stroke: #238636; animation: pulseAnim 2s infinite ease-out; }
+    .pulse2-green { fill: transparent; stroke: #238636; animation: pulseAnim 2s infinite ease-out; animation-delay: 1s; }
+
+    .pulse-red { fill: transparent; stroke: #e34c26; animation: pulseAnim 2s infinite ease-out; }
+    .pulse2-red { fill: transparent; stroke: #e34c26; animation: pulseAnim 2s infinite ease-out; animation-delay: 1s; }
+    
+    @keyframes pulseAnim {
+      0% { transform: scale(1); opacity: 1; stroke-width: 3px; }
+      100% { transform: scale(4); opacity: 0; stroke-width: 0.5px; }
+    }
+
+    .line { stroke: #30363d; stroke-width: 2; stroke-dasharray: 8, 8; animation: dashAnim 5s linear infinite; }
+    .line-reverse { stroke: #30363d; stroke-width: 2; stroke-dasharray: 8, 8; animation: dashAnimReverse 5s linear infinite; }
+    
+    @keyframes dashAnim {
+      from { stroke-dashoffset: 100; }
+      to { stroke-dashoffset: 0; }
+    }
+    @keyframes dashAnimReverse {
+      from { stroke-dashoffset: 0; }
+      to { stroke-dashoffset: 100; }
+    }
+    
+    .text { fill: #c9d1d9; font-family: monospace; font-size: 16px; font-weight: bold; text-anchor: middle; }
+    .subtext { fill: #8b949e; font-family: monospace; font-size: 13px; text-anchor: middle; }
+  </style>
+
+  <!-- Network Lines -->
+  <!-- Line from Local to Gateway -->
+  <line x1="200" y1="80" x2="400" y2="80" class="line" />
+  <!-- Line from Gateway to Internet -->
+  <line x1="400" y1="80" x2="600" y2="80" class="line-reverse" />
+
+  <!-- Node 1 (Local) -->
+  <g transform="translate(200, 80)">
+    <circle cx="0" cy="0" r="15" class="pulse-green" />
+    <circle cx="0" cy="0" r="15" class="pulse2-green" />
+    <circle cx="0" cy="0" r="15" class="node-green" />
+    <text x="0" y="45" class="text">192.168.1.10</text>
+    <text x="0" y="65" class="subtext">Client Host</text>
+  </g>
+
+  <!-- Node 2 (Router) -->
+  <g transform="translate(400, 80)">
+    <rect x="-20" y="-15" width="40" height="30" rx="5" class="node-blue" />
+    <text x="0" y="45" class="text">10.0.0.1</text>
+    <text x="0" y="65" class="subtext">Core Router</text>
+  </g>
+
+  <!-- Node 3 (Internet) -->
+  <g transform="translate(600, 80)">
+    <circle cx="0" cy="0" r="15" class="pulse-red" />
+    <circle cx="0" cy="0" r="15" class="pulse2-red" />
+    <circle cx="0" cy="0" r="15" class="node-red" />
+    <text x="0" y="45" class="text">8.8.8.8</text>
+    <text x="0" y="65" class="subtext">DNS Server</text>
+  </g>
+
+</svg>

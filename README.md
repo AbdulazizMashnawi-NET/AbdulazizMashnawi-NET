@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="network-animation.svg" alt="Network Animation" width="800" />
+</div>
+
 <h1 align="center">Hi, I'm Abdulaziz</h1>
 
 <h3 align="center">
