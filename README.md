@@ -34,8 +34,8 @@ Computer & Network Engineering Student
 
 **Obtained Certifications:**
 <p>
-  <img src="https://img.shields.io/badge/Cisco-Python_Essentials_1-238636?style=for-the-badge&logo=cisco&logoColor=white" alt="Cisco Python 1" />
-  <img src="https://img.shields.io/badge/Cisco-Python_Essentials_2-238636?style=for-the-badge&logo=cisco&logoColor=white" alt="Cisco Python 2" />
+  <img src="python-essentials-1.png" alt="Cisco Python Essentials 1" width="120" />
+  <img src="python-essentials-2.png" alt="Cisco Python Essentials 2" width="120" />
 </p>
 
 **In Progress / Goals:**
