@@ -50,6 +50,19 @@ Computer & Network Engineering Student
 
 ---
 
+## Pinned Repositories
+
+<div align="center">
+  <a href="https://github.com/AbdulazizMashnawi-NET/Smart-University-Network-Design">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AbdulazizMashnawi-NET&repo=Smart-University-Network-Design&theme=radical&hide_border=true" />
+  </a>
+  <a href="https://github.com/AbdulazizMashnawi-NET/Jazan-Uni-SUC-Manager">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AbdulazizMashnawi-NET&repo=Jazan-Uni-SUC-Manager&theme=radical&hide_border=true" />
+  </a>
+</div>
+
+---
+
 ## Contribution Graph
 
 <div align="center">
