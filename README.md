@@ -23,10 +23,13 @@ Computer & Network Engineering Student
 
 ## About Me
 
-- Computer & Network Engineering Student
-- Deeply interested in Networking & Linux
-- Currently studying and preparing for CCNA
-- Enthusiastic about AI & Automation
+```console
+[abdulaziz@linux ~]$ cat about_me.txt
+> Computer & Network Engineering Student
+> Deeply interested in Networking & Linux
+> Currently studying and preparing for CCNA
+> Enthusiastic about AI & Automation
+```
 
 <br>
 
