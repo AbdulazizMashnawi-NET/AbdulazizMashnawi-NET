@@ -89,8 +89,8 @@ Computer & Network Engineering Student
     <img src="https://github-stats-extended.vercel.app/api/pin/?username=AbdulazizMashnawi-NET&repo=Jazan-Uni-SUC-Manager&theme=github_dark&hide_border=true" />
   </a>
    </a>
-  <a href="https://github.com/AbdulazizMashnawi-NET/Securechat">
-    <img src="https://github-stats-extended.vercel.app/api/pin/?username=AbdulazizMashnawi-NET&repo=Securechat&theme=github_dark&hide_border=true" />
+  <a href="https://github.com/AbdulazizMashnawi-NET/SecureChat-E2EE-Simulator">
+    <img src="https://github-stats-extended.vercel.app/api/pin/?username=AbdulazizMashnawi-NET&repo=SecureChat-E2EE-Simulator&theme=github_dark&hide_border=true" />
   </a>
 </div>
 
