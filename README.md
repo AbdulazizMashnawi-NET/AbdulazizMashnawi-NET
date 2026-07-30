@@ -37,8 +37,8 @@ Computer & Network Engineering Student
 
 **Obtained Certifications:**
 <p>
-  <img src="python-essentials-1.png" alt="Cisco Python Essentials 1" width="120" />
-  <img src="python-essentials-2.png" alt="Cisco Python Essentials 2" width="120" />
+  <img src="python-essentials-1.png" alt="Cisco Python Essentials 1" width="90" />
+  <img src="python-essentials-2.png" alt="Cisco Python Essentials 2" width="90" />
 </p>
 
 **In Progress / Goals:**
@@ -87,6 +87,10 @@ Computer & Network Engineering Student
   </a>
   <a href="https://github.com/AbdulazizMashnawi-NET/Jazan-Uni-SUC-Manager">
     <img src="https://github-stats-extended.vercel.app/api/pin/?username=AbdulazizMashnawi-NET&repo=Jazan-Uni-SUC-Manager&theme=github_dark&hide_border=true" />
+  </a>
+   </a>
+  <a href="https://github.com/AbdulazizMashnawi-NET/Securechat">
+    <img src="https://github-stats-extended.vercel.app/api/pin/?username=AbdulazizMashnawi-NET&repo=Securechat&theme=github_dark&hide_border=true" />
   </a>
 </div>
 
