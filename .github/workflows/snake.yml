@@ -8,7 +8,7 @@ on:
   # allows to manually run the job at any time
   workflow_dispatch:
   
-  # run on every push on the master branch
+  # run on every push on the main/master branch
   push:
     branches:
     - main
@@ -28,8 +28,8 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?color_snake=#D8D365&color_dots=#ebedf0,#D8D365,#C5BF52,#605B51,#454040
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#E6F082&color_dots=#161b22,#454040,#605B51,#D8D365,#E6F082
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           

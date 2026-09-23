@@ -38,7 +38,7 @@ Computer & Network Engineering Student @ Jazan University
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🌐 Network Architecture & Protocols</h3>
+      <h3>Network Architecture & Protocols</h3>
       <ul>
         <li><b>3-Tier Hierarchical Design:</b> Core, Distribution, Access Layers</li>
         <li><b>Routing & Switching:</b> Layer 3 Switching, VLAN Segmentation, Packet Switching</li>
@@ -47,7 +47,7 @@ Computer & Network Engineering Student @ Jazan University
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h3>🔐 Security & Cryptography</h3>
+      <h3>Security & Cryptography</h3>
       <ul>
         <li><b>Encryption Protocols:</b> End-to-End Encryption (E2EE) Handshakes</li>
         <li><b>Ciphers & Keys:</b> Public Key Cryptography (RSA), AES-GCM</li>
@@ -58,7 +58,7 @@ Computer & Network Engineering Student @ Jazan University
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🐧 Linux Systems & Automation</h3>
+      <h3>Linux Systems & Automation</h3>
       <ul>
         <li><b>GNU/Linux OS:</b> System Administration, Components, Permissions</li>
         <li><b>Shell Scripting:</b> Bash Automation, File & Backup Management</li>
@@ -67,7 +67,7 @@ Computer & Network Engineering Student @ Jazan University
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h3>🗄️ Database & Application Design</h3>
+      <h3>Database & Application Design</h3>
       <ul>
         <li><b>RDBMS Lifecycle:</b> E-R Modeling, Relational Mapping, Schema Design</li>
         <li><b>SQL Implementation:</b> DDL, DML, Complex Queries, Oracle DB</li>
@@ -102,15 +102,15 @@ Computer & Network Engineering Student @ Jazan University
   <img src="https://img.shields.io/badge/Target-Cisco_DevNet-049fd9?style=flat-square&logo=cisco&logoColor=white" alt="DevNet Goal" />
 </p>
 
-
+<br>
 
 ## Tech Stack & Tooling
 
 <table>
   <tr>
-    <th align="center" width="33%">💻 Languages &amp; Scripting</th>
-    <th align="center" width="33%">🌐 Systems, Cloud &amp; Networking</th>
-    <th align="center" width="33%">🗄️ Databases &amp; Web Stack</th>
+    <th align="center" width="33%">Languages &amp; Scripting</th>
+    <th align="center" width="33%">Systems, Cloud &amp; Networking</th>
+    <th align="center" width="33%">Databases &amp; Web Stack</th>
   </tr>
   <tr>
     <td align="center" valign="top">
@@ -176,9 +176,9 @@ Computer & Network Engineering Student @ Jazan University
 <br>
 
 <div align="center">
-  <img src="network-animation.svg?v=11" alt="Network Animation" width="800" />
+  <img src="network-animation.svg?v=13" alt="Network Animation" width="800" />
 </div>
 
 <p align="center">
-⭐ Thanks for visiting my profile!
+Thanks for visiting my profile!
 </p>
