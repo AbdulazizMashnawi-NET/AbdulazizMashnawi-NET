@@ -84,11 +84,17 @@ Computer & Network Engineering Student @ Jazan University
 
 **Verified Badges:**
 <p align="left">
-  <img src="python-essentials-1.png" alt="Cisco Python Essentials 1" width="80" />
+  <a href="https://www.credly.com/badges/a179547a-c579-40ab-8325-c3c371f5c499/public_url" target="_blank">
+    <img src="python-essentials-1.png" alt="Cisco Python Essentials 1" width="80" />
+  </a>
   &nbsp;
-  <img src="python-essentials-2.png" alt="Cisco Python Essentials 2" width="80" />
+  <a href="https://www.credly.com/badges/d649e012-a588-414b-be9f-fcbc4869978f/public_url" target="_blank">
+    <img src="python-essentials-2.png" alt="Cisco Python Essentials 2" width="80" />
+  </a>
   &nbsp;
-  <img src="cisco-linux-essentials.png" alt="Cisco Linux Essentials" width="80" />
+  <a href="https://www.credly.com/badges/a0877d18-18ce-4e9d-950b-34caed32699f/public_url" target="_blank">
+    <img src="cisco-linux-essentials.png" alt="Cisco Linux Essentials" width="80" />
+  </a>
 </p>
 
 **Professional Affiliations & Targets:**
