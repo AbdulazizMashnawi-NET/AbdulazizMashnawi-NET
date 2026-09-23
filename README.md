@@ -5,7 +5,7 @@ Computer & Network Engineering Student @ Jazan University
 </h3>
 
 <p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&width=750&lines=Computer+%26+Network+Engineer;Network+Automation+%7C+Cloud+%7C+IoT;CCNA+%26+AWS+Candidate;Linux+%26+Security+Enthusiast;Python+%26+Bash+Developer" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&center=true&vCenter=true&width=800&lines=Computer+%26+Network+Engineer;Enterprise+Network+Design+%26+Automation;Cryptography+%26+E2EE+Protocol+Simulation;Linux+Administration+%26+Bash+Scripting;Relational+Database+Design+%26+SQL" />
 </p>
 
 <p align="center">
@@ -24,12 +24,59 @@ Computer & Network Engineering Student @ Jazan University
 
 ```console
 [abdulaziz@linux ~]$ cat about_me.txt
-> Education: B.S. in Computer & Network Engineering @ Jazan University
-> Core Focus: Network Automation, Cloud Infrastructure & Systems Engineering
-> Hands-on: Cisco Enterprise Design, Python/Bash Automation, Linux & Cryptography
-> In Progress: CCNA (Cisco) & AWS Cloud Certification Tracks
-> Affiliation: Saudi Council of Engineers (SCE) - Student Member
+> Role: B.S. in Computer & Network Engineering @ Jazan University
+> Specialization: Network Architecture, Automation, Linux Administration & Cryptography
+> Core Focus: High-Availability (HA) 3-Tier Enterprise Networks, E2EE Protocols, RDBMS Lifecycle
+> Target Credentials: Cisco CCNA (200-301), AWS Solutions Architect, Cisco DevNet
+> Professional Membership: Saudi Council of Engineers (SCE) - Student Member
 ```
+
+<br>
+
+## Core Engineering Domains
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🌐 Network Architecture & Protocols</h3>
+      <ul>
+        <li><b>3-Tier Hierarchical Design:</b> Core, Distribution, Access Layers</li>
+        <li><b>Routing & Switching:</b> Layer 3 Switching, VLAN Segmentation, Packet Switching</li>
+        <li><b>Resilience:</b> High Availability (HA) & Redundancy Planning</li>
+        <li><b>Simulation:</b> Cisco Packet Tracer & Network Topologies</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🔐 Security & Cryptography</h3>
+      <ul>
+        <li><b>Encryption Protocols:</b> End-to-End Encryption (E2EE) Handshakes</li>
+        <li><b>Ciphers & Keys:</b> Public Key Cryptography (RSA), AES-GCM</li>
+        <li><b>Attack Simulation:</b> Man-in-the-Middle (MitM) Threat Vectors</li>
+        <li><b>Network Security:</b> Access Control, Traffic Hardening</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🐧 Linux Systems & Automation</h3>
+      <ul>
+        <li><b>GNU/Linux OS:</b> System Administration, Components, Permissions</li>
+        <li><b>Shell Scripting:</b> Bash Automation, File & Backup Management</li>
+        <li><b>Python Engineering:</b> OOP (Inheritance, Polymorphism), Generators, PIP</li>
+        <li><b>DevOps & Tooling:</b> Git, GitHub, Docker, Postman</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🗄️ Database & Application Design</h3>
+      <ul>
+        <li><b>RDBMS Lifecycle:</b> E-R Modeling, Relational Mapping, Schema Design</li>
+        <li><b>SQL Implementation:</b> DDL, DML, Complex Queries, Oracle DB</li>
+        <li><b>Web Utilities:</b> Client-Side UI, Conflict-Free Schedule Optimization</li>
+        <li><b>Emerging Tech:</b> Internet of Things (IoT), Cloud Fundamentals</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 <br>
 
@@ -56,7 +103,7 @@ Computer & Network Engineering Student @ Jazan University
 ## Skills Proficiency
 
 <div align="center">
-  <img src="skills.svg?v=10" alt="Skills Progress" />
+  <img src="skills.svg?v=11" alt="Skills Progress" />
 </div>
 
 <br>
@@ -118,7 +165,7 @@ Computer & Network Engineering Student @ Jazan University
 <br>
 
 <div align="center">
-  <img src="network-animation.svg?v=10" alt="Network Animation" width="800" />
+  <img src="network-animation.svg?v=11" alt="Network Animation" width="800" />
 </div>
 
 <p align="center">
