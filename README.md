@@ -102,15 +102,7 @@ Computer & Network Engineering Student @ Jazan University
   <img src="https://img.shields.io/badge/Target-Cisco_DevNet-049fd9?style=flat-square&logo=cisco&logoColor=white" alt="DevNet Goal" />
 </p>
 
-<br>
 
-## Skills Proficiency
-
-<div align="center">
-  <img src="skills.svg?v=12" alt="Skills Progress" />
-</div>
-
-<br>
 
 ## Tech Stack
 
