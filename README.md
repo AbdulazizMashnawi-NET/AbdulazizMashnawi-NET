@@ -104,17 +104,32 @@ Computer & Network Engineering Student @ Jazan University
 
 
 
-## Tech Stack
+## Tech Stack & Tooling
 
-### Languages & Databases
-<p>
-<img src="https://skillicons.dev/icons?i=python,bash,c,cpp,js,ts,html,css,mysql" />
-</p>
-
-### Systems, Networking & Cloud
-<p>
-<img src="https://skillicons.dev/icons?i=linux,docker,aws,git,github,vscode,nodejs,postman" />
-</p>
+<table>
+  <tr>
+    <th align="center" width="33%">💻 Languages &amp; Scripting</th>
+    <th align="center" width="33%">🌐 Systems, Cloud &amp; Networking</th>
+    <th align="center" width="33%">🗄️ Databases &amp; Web Stack</th>
+  </tr>
+  <tr>
+    <td align="center" valign="top">
+      <br>
+      <img src="https://skillicons.dev/icons?i=python,bash,c,cpp,ts,js&perline=3" alt="Languages" />
+      <br><br>
+    </td>
+    <td align="center" valign="top">
+      <br>
+      <img src="https://skillicons.dev/icons?i=linux,docker,aws,git,github,postman&perline=3" alt="Systems & Cloud" />
+      <br><br>
+    </td>
+    <td align="center" valign="top">
+      <br>
+      <img src="https://skillicons.dev/icons?i=mysql,postgres,html,css,nodejs,vscode&perline=3" alt="Databases & Web" />
+      <br><br>
+    </td>
+  </tr>
+</table>
 
 <br>
 
