@@ -47,9 +47,9 @@
     <rect x="225" y="0" width="18" height="18" class="sq empty" />
   </g>
   
-  <!-- Networking 70% -->
+  <!-- Networking 75% -->
   <text x="30" y="95" class="text">Networking</text>
-  <text x="130" y="95" class="pct">70%</text>
+  <text x="130" y="95" class="pct">75%</text>
   <line x1="180" y1="90" x2="195" y2="90" class="circuit" />
   <circle cx="180" cy="90" r="4" class="node" />
   <g transform="translate(210, 81)">
@@ -60,13 +60,13 @@
     <rect x="100" y="0" width="18" height="18" class="sq filled d5" />
     <rect x="125" y="0" width="18" height="18" class="sq filled d6" />
     <rect x="150" y="0" width="18" height="18" class="sq filled d7" />
-    <rect x="175" y="0" width="18" height="18" class="sq empty" />
+    <rect x="175" y="0" width="18" height="18" class="sq filled d8" />
     <rect x="200" y="0" width="18" height="18" class="sq empty" />
     <rect x="225" y="0" width="18" height="18" class="sq empty" />
   </g>
 
   <!-- Linux & Bash 80% -->
-  <text x="30" y="145" class="text">Linux</text>
+  <text x="30" y="145" class="text">Linux/Bash</text>
   <text x="130" y="145" class="pct">80%</text>
   <line x1="180" y1="140" x2="195" y2="140" class="circuit" />
   <circle cx="180" cy="140" r="4" class="node" />
@@ -83,9 +83,9 @@
     <rect x="225" y="0" width="18" height="18" class="sq empty" />
   </g>
 
-  <!-- AI & Automation 60% -->
-  <text x="30" y="195" class="text">AI &amp; Auto</text>
-  <text x="130" y="195" class="pct">60%</text>
+  <!-- Net Automation 70% -->
+  <text x="30" y="195" class="text">Net Auto</text>
+  <text x="130" y="195" class="pct">70%</text>
   <line x1="180" y1="190" x2="195" y2="190" class="circuit" />
   <circle cx="180" cy="190" r="4" class="node" />
   <g transform="translate(210, 181)">
@@ -95,7 +95,7 @@
     <rect x="75" y="0" width="18" height="18" class="sq filled d4" />
     <rect x="100" y="0" width="18" height="18" class="sq filled d5" />
     <rect x="125" y="0" width="18" height="18" class="sq filled d6" />
-    <rect x="150" y="0" width="18" height="18" class="sq empty" />
+    <rect x="150" y="0" width="18" height="18" class="sq filled d7" />
     <rect x="175" y="0" width="18" height="18" class="sq empty" />
     <rect x="200" y="0" width="18" height="18" class="sq empty" />
     <rect x="225" y="0" width="18" height="18" class="sq empty" />
