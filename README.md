@@ -82,20 +82,24 @@ Computer & Network Engineering Student @ Jazan University
 
 ## Certifications & Credentials
 
-**Verified Certifications & Memberships:**
+**Verified Badges:**
 <p align="left">
-  <img src="python-essentials-1.png" alt="Cisco Python Essentials 1" width="115" />
-  <img src="python-essentials-2.png" alt="Cisco Python Essentials 2" width="115" />
-  <br>
-  <img src="https://img.shields.io/badge/Cisco-Linux_Essentials_Certification-005073?style=for-the-badge&logo=cisco&logoColor=white" alt="Cisco Linux Essentials" />
-  <img src="https://img.shields.io/badge/Saudi_Council_of_Engineers-Student_Member-008080?style=for-the-badge" alt="SCE Member" />
+  <img src="python-essentials-1.png" alt="Cisco Python Essentials 1" width="80" />
+  &nbsp;
+  <img src="python-essentials-2.png" alt="Cisco Python Essentials 2" width="80" />
+  &nbsp;
+  <img src="cisco-linux-essentials.png" alt="Cisco Linux Essentials" width="80" />
 </p>
 
-**In Progress / Target Certifications:**
+**Professional Affiliations & Targets:**
 <p align="left">
-  <img src="https://img.shields.io/badge/Target-CCNA_(200--301)-005073?style=for-the-badge&logo=cisco&logoColor=white" alt="CCNA Goal" />
-  <img src="https://img.shields.io/badge/Target-AWS_Certified-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS Goal" />
-  <img src="https://img.shields.io/badge/Target-Cisco_DevNet-049fd9?style=for-the-badge&logo=cisco&logoColor=white" alt="DevNet Goal" />
+  <img src="https://img.shields.io/badge/SCE-Student_Member-008080?style=flat-square&logo=shield&logoColor=white" alt="SCE Member" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Target-CCNA_(200--301)-005073?style=flat-square&logo=cisco&logoColor=white" alt="CCNA Goal" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Target-AWS_Certified-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS Goal" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Target-Cisco_DevNet-049fd9?style=flat-square&logo=cisco&logoColor=white" alt="DevNet Goal" />
 </p>
 
 <br>
@@ -103,7 +107,7 @@ Computer & Network Engineering Student @ Jazan University
 ## Skills Proficiency
 
 <div align="center">
-  <img src="skills.svg?v=11" alt="Skills Progress" />
+  <img src="skills.svg?v=12" alt="Skills Progress" />
 </div>
 
 <br>

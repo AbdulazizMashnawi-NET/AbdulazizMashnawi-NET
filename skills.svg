@@ -1,104 +1,103 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="250" viewBox="0 0 600 250">
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="200" viewBox="0 0 520 200">
   <style>
-    .text { font-family: 'Fira Code', Consolas, 'Courier New', monospace; fill: #c9d1d9; font-size: 14px; font-weight: bold; text-anchor: start; }
-    .pct { font-family: 'Fira Code', Consolas, 'Courier New', monospace; fill: #8b949e; font-size: 14px; font-weight: bold; text-anchor: start; }
+    .text { font-family: 'Fira Code', Consolas, 'Courier New', monospace; fill: #c9d1d9; font-size: 13px; font-weight: 600; text-anchor: start; }
+    .pct { font-family: 'Fira Code', Consolas, 'Courier New', monospace; fill: #8b949e; font-size: 13px; font-weight: bold; text-anchor: end; }
     
-    .sq { fill: #238636; rx: 4; }
-    .empty { opacity: 0.15; }
+    .sq { fill: #238636; rx: 3; }
+    .empty { opacity: 0.12; }
     .filled { opacity: 0; animation: fadeIn 0.4s ease-out forwards; }
     
-    .d1 { animation-delay: 0.1s; } .d2 { animation-delay: 0.2s; }
-    .d3 { animation-delay: 0.3s; } .d4 { animation-delay: 0.4s; }
-    .d5 { animation-delay: 0.5s; } .d6 { animation-delay: 0.6s; }
-    .d7 { animation-delay: 0.7s; } .d8 { animation-delay: 0.8s; }
-    .d9 { animation-delay: 0.9s; } .d10 { animation-delay: 1.0s; }
+    .d1 { animation-delay: 0.08s; } .d2 { animation-delay: 0.16s; }
+    .d3 { animation-delay: 0.24s; } .d4 { animation-delay: 0.32s; }
+    .d5 { animation-delay: 0.40s; } .d6 { animation-delay: 0.48s; }
+    .d7 { animation-delay: 0.56s; } .d8 { animation-delay: 0.64s; }
+    .d9 { animation-delay: 0.72s; } .d10 { animation-delay: 0.80s; }
 
     @keyframes fadeIn { to { opacity: 1; } }
 
     /* Circuit Backbone */
     .circuit { stroke: #30363d; stroke-width: 2; fill: none; }
-    .data-flow { stroke: #238636; stroke-width: 2; stroke-dasharray: 6, 6; animation: flowAnim 4s linear infinite; fill: none; }
-    @keyframes flowAnim { from { stroke-dashoffset: 100; } to { stroke-dashoffset: 0; } }
+    .data-flow { stroke: #238636; stroke-width: 2; stroke-dasharray: 5, 5; animation: flowAnim 3s linear infinite; fill: none; }
+    @keyframes flowAnim { from { stroke-dashoffset: 50; } to { stroke-dashoffset: 0; } }
     .node { fill: #238636; }
   </style>
 
   <rect width="100%" height="100%" fill="transparent" />
 
-  <!-- Backbone (Only exactly between first and last node: y=40 to y=190) -->
-  <path d="M 180,40 L 180,190" class="circuit" />
-  <path d="M 180,40 L 180,190" class="data-flow" />
+  <!-- Backbone (y=30 to y=165) -->
+  <path d="M 170,30 L 170,165" class="circuit" />
+  <path d="M 170,30 L 170,165" class="data-flow" />
 
-  <!-- Python 80% -->
-  <text x="30" y="45" class="text">Python</text>
-  <text x="130" y="45" class="pct">80%</text>
-  <line x1="180" y1="40" x2="195" y2="40" class="circuit" />
-  <circle cx="180" cy="40" r="4" class="node" />
-  <g transform="translate(210, 31)">
-    <!-- 8 filled, 2 empty -->
-    <rect x="0" y="0" width="18" height="18" class="sq filled d1" />
-    <rect x="25" y="0" width="18" height="18" class="sq filled d2" />
-    <rect x="50" y="0" width="18" height="18" class="sq filled d3" />
-    <rect x="75" y="0" width="18" height="18" class="sq filled d4" />
-    <rect x="100" y="0" width="18" height="18" class="sq filled d5" />
-    <rect x="125" y="0" width="18" height="18" class="sq filled d6" />
-    <rect x="150" y="0" width="18" height="18" class="sq filled d7" />
-    <rect x="175" y="0" width="18" height="18" class="sq filled d8" />
-    <rect x="200" y="0" width="18" height="18" class="sq empty" />
-    <rect x="225" y="0" width="18" height="18" class="sq empty" />
+  <!-- 1. Python 80% -->
+  <text x="20" y="34" class="text">Python</text>
+  <text x="155" y="34" class="pct">80%</text>
+  <line x1="170" y1="30" x2="182" y2="30" class="circuit" />
+  <circle cx="170" cy="30" r="3.5" class="node" />
+  <g transform="translate(192, 22)">
+    <rect x="0" y="0" width="16" height="16" class="sq filled d1" />
+    <rect x="21" y="0" width="16" height="16" class="sq filled d2" />
+    <rect x="42" y="0" width="16" height="16" class="sq filled d3" />
+    <rect x="63" y="0" width="16" height="16" class="sq filled d4" />
+    <rect x="84" y="0" width="16" height="16" class="sq filled d5" />
+    <rect x="105" y="0" width="16" height="16" class="sq filled d6" />
+    <rect x="126" y="0" width="16" height="16" class="sq filled d7" />
+    <rect x="147" y="0" width="16" height="16" class="sq filled d8" />
+    <rect x="168" y="0" width="16" height="16" class="sq empty" />
+    <rect x="189" y="0" width="16" height="16" class="sq empty" />
   </g>
   
-  <!-- Networking 75% -->
-  <text x="30" y="95" class="text">Networking</text>
-  <text x="130" y="95" class="pct">75%</text>
-  <line x1="180" y1="90" x2="195" y2="90" class="circuit" />
-  <circle cx="180" cy="90" r="4" class="node" />
-  <g transform="translate(210, 81)">
-    <rect x="0" y="0" width="18" height="18" class="sq filled d1" />
-    <rect x="25" y="0" width="18" height="18" class="sq filled d2" />
-    <rect x="50" y="0" width="18" height="18" class="sq filled d3" />
-    <rect x="75" y="0" width="18" height="18" class="sq filled d4" />
-    <rect x="100" y="0" width="18" height="18" class="sq filled d5" />
-    <rect x="125" y="0" width="18" height="18" class="sq filled d6" />
-    <rect x="150" y="0" width="18" height="18" class="sq filled d7" />
-    <rect x="175" y="0" width="18" height="18" class="sq filled d8" />
-    <rect x="200" y="0" width="18" height="18" class="sq empty" />
-    <rect x="225" y="0" width="18" height="18" class="sq empty" />
+  <!-- 2. Networking 75% -->
+  <text x="20" y="79" class="text">Networking</text>
+  <text x="155" y="79" class="pct">75%</text>
+  <line x1="170" y1="75" x2="182" y2="75" class="circuit" />
+  <circle cx="170" cy="75" r="3.5" class="node" />
+  <g transform="translate(192, 67)">
+    <rect x="0" y="0" width="16" height="16" class="sq filled d1" />
+    <rect x="21" y="0" width="16" height="16" class="sq filled d2" />
+    <rect x="42" y="0" width="16" height="16" class="sq filled d3" />
+    <rect x="63" y="0" width="16" height="16" class="sq filled d4" />
+    <rect x="84" y="0" width="16" height="16" class="sq filled d5" />
+    <rect x="105" y="0" width="16" height="16" class="sq filled d6" />
+    <rect x="126" y="0" width="16" height="16" class="sq filled d7" />
+    <rect x="147" y="0" width="16" height="16" class="sq filled d8" />
+    <rect x="168" y="0" width="16" height="16" class="sq empty" />
+    <rect x="189" y="0" width="16" height="16" class="sq empty" />
   </g>
 
-  <!-- Linux & Bash 80% -->
-  <text x="30" y="145" class="text">Linux/Bash</text>
-  <text x="130" y="145" class="pct">80%</text>
-  <line x1="180" y1="140" x2="195" y2="140" class="circuit" />
-  <circle cx="180" cy="140" r="4" class="node" />
-  <g transform="translate(210, 131)">
-    <rect x="0" y="0" width="18" height="18" class="sq filled d1" />
-    <rect x="25" y="0" width="18" height="18" class="sq filled d2" />
-    <rect x="50" y="0" width="18" height="18" class="sq filled d3" />
-    <rect x="75" y="0" width="18" height="18" class="sq filled d4" />
-    <rect x="100" y="0" width="18" height="18" class="sq filled d5" />
-    <rect x="125" y="0" width="18" height="18" class="sq filled d6" />
-    <rect x="150" y="0" width="18" height="18" class="sq filled d7" />
-    <rect x="175" y="0" width="18" height="18" class="sq filled d8" />
-    <rect x="200" y="0" width="18" height="18" class="sq empty" />
-    <rect x="225" y="0" width="18" height="18" class="sq empty" />
+  <!-- 3. Linux & Bash 80% -->
+  <text x="20" y="124" class="text">Linux/Bash</text>
+  <text x="155" y="124" class="pct">80%</text>
+  <line x1="170" y1="120" x2="182" y2="120" class="circuit" />
+  <circle cx="170" cy="120" r="3.5" class="node" />
+  <g transform="translate(192, 112)">
+    <rect x="0" y="0" width="16" height="16" class="sq filled d1" />
+    <rect x="21" y="0" width="16" height="16" class="sq filled d2" />
+    <rect x="42" y="0" width="16" height="16" class="sq filled d3" />
+    <rect x="63" y="0" width="16" height="16" class="sq filled d4" />
+    <rect x="84" y="0" width="16" height="16" class="sq filled d5" />
+    <rect x="105" y="0" width="16" height="16" class="sq filled d6" />
+    <rect x="126" y="0" width="16" height="16" class="sq filled d7" />
+    <rect x="147" y="0" width="16" height="16" class="sq filled d8" />
+    <rect x="168" y="0" width="16" height="16" class="sq empty" />
+    <rect x="189" y="0" width="16" height="16" class="sq empty" />
   </g>
 
-  <!-- Net Automation 70% -->
-  <text x="30" y="195" class="text">Net Auto</text>
-  <text x="130" y="195" class="pct">70%</text>
-  <line x1="180" y1="190" x2="195" y2="190" class="circuit" />
-  <circle cx="180" cy="190" r="4" class="node" />
-  <g transform="translate(210, 181)">
-    <rect x="0" y="0" width="18" height="18" class="sq filled d1" />
-    <rect x="25" y="0" width="18" height="18" class="sq filled d2" />
-    <rect x="50" y="0" width="18" height="18" class="sq filled d3" />
-    <rect x="75" y="0" width="18" height="18" class="sq filled d4" />
-    <rect x="100" y="0" width="18" height="18" class="sq filled d5" />
-    <rect x="125" y="0" width="18" height="18" class="sq filled d6" />
-    <rect x="150" y="0" width="18" height="18" class="sq filled d7" />
-    <rect x="175" y="0" width="18" height="18" class="sq empty" />
-    <rect x="200" y="0" width="18" height="18" class="sq empty" />
-    <rect x="225" y="0" width="18" height="18" class="sq empty" />
+  <!-- 4. Net Automation 70% -->
+  <text x="20" y="169" class="text">Net Auto</text>
+  <text x="155" y="169" class="pct">70%</text>
+  <line x1="170" y1="165" x2="182" y2="165" class="circuit" />
+  <circle cx="170" cy="165" r="3.5" class="node" />
+  <g transform="translate(192, 157)">
+    <rect x="0" y="0" width="16" height="16" class="sq filled d1" />
+    <rect x="21" y="0" width="16" height="16" class="sq filled d2" />
+    <rect x="42" y="0" width="16" height="16" class="sq filled d3" />
+    <rect x="63" y="0" width="16" height="16" class="sq filled d4" />
+    <rect x="84" y="0" width="16" height="16" class="sq filled d5" />
+    <rect x="105" y="0" width="16" height="16" class="sq filled d6" />
+    <rect x="126" y="0" width="16" height="16" class="sq filled d7" />
+    <rect x="147" y="0" width="16" height="16" class="sq empty" />
+    <rect x="168" y="0" width="16" height="16" class="sq empty" />
+    <rect x="189" y="0" width="16" height="16" class="sq empty" />
   </g>
 
 </svg>
