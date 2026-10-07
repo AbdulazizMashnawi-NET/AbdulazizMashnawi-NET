@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Abdulaziz</h1>
+﻿<h1 align="center">Hi, I'm Abdulaziz</h1>
 
 <h3 align="center">
 Computer & Network Engineering Student @ Jazan University
@@ -94,6 +94,10 @@ Computer & Network Engineering Student @ Jazan University
   &nbsp;
   <a href="https://www.credly.com/badges/a0877d18-18ce-4e9d-950b-34caed32699f/public_url" target="_blank">
     <img src="cisco-linux-essentials.png" alt="Cisco Linux Essentials" width="80" />
+  </a>
+  &nbsp;
+  <a href="https://www.credly.com/badges/74cd7984-f8cb-4439-814f-d6d1c7f206a4/public_url" target="_blank">
+    <img src="cisco-ccna-itn.png" alt="Cisco CCNA: Introduction to Networks" width="80" />
   </a>
 </p>
 
