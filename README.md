@@ -1,4 +1,4 @@
-﻿<h1 align="center">Hi, I'm Abdulaziz</h1>
+<h1 align="center">Hi, I'm Abdulaziz</h1>
 
 <h3 align="center">
 Computer & Network Engineering Student @ Jazan University
@@ -168,7 +168,7 @@ Computer & Network Engineering Student @ Jazan University
 ## Top Languages
 
 <div align="center">
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=AbdulazizMashnawi-NET&layout=compact&theme=github_dark&hide_border=true" alt="Top Languages" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=AbdulazizMashnawi-NET&layout=compact&theme=github_dark&hide_border=true&hide=html" alt="Top Languages" />
 </div>
 
 <br>
