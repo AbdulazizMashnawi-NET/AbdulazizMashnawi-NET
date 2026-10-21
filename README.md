@@ -161,6 +161,9 @@ Computer & Network Engineering Student @ Jazan University
   <a href="https://github.com/AbdulazizMashnawi-NET/Shipping-Company-Database">
     <img src="https://github-stats-extended.vercel.app/api/pin/?username=AbdulazizMashnawi-NET&repo=Shipping-Company-Database&theme=github_dark&hide_border=true" />
   </a>
+   <a href="https://github.com/AbdulazizMashnawi-NET/zero-trust-hybrid-network-lab">
+    <img src="https://github-stats-extended.vercel.app/api/pin/?username=AbdulazizMashnawi-NET&repo=zero-trust-hybrid-network-lab&theme=github_dark&hide_border=true" />
+  </a>
 </div>
 
 <br>
