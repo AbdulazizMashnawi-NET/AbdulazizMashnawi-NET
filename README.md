@@ -5,7 +5,7 @@ Computer & Network Engineering Student @ Jazan University
 </h3>
 
 <p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&center=true&vCenter=true&width=800&lines=Computer+%26+Network+Engineer;Enterprise+Network+Design+%26+Automation;Cryptography+%26+E2EE+Protocol+Simulation;Linux+Administration+%26+Bash+Scripting;Relational+Database+Design+%26+SQL" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&center=true&vCenter=true&width=800&lines=Aspiring+Network+Engineer;Campus+Network+Design+in+Packet+Tracer;E2EE+Protocol+Simulation;Linux+Administration+%26+Bash+Scripting;Relational+Database+Design+%26+SQL" />
 </p>
 
 <p align="center">
@@ -24,12 +24,60 @@ Computer & Network Engineering Student @ Jazan University
 
 ```console
 [abdulaziz@linux ~]$ cat about_me.txt
-> Role: B.S. in Computer & Network Engineering @ Jazan University
-> Specialization: Network Architecture, Automation, Linux Administration & Cryptography
-> Core Focus: High-Availability (HA) 3-Tier Enterprise Networks, E2EE Protocols, RDBMS Lifecycle
-> Target Credentials: Cisco CCNA (200-301), AWS Solutions Architect, Cisco DevNet
-> Professional Membership: Saudi Council of Engineers (SCE) - Student Member
+> Studying: Computer & Network Engineering @ Jazan University
+> Building: 3-tier campus network (OSPFv2/v3, VLANs, NAT) & E2EE chat simulator
+> Practicing: Linux administration, Bash automation, relational schema design in SQL
+> Next targets: CCNA 200-301, then AWS Solutions Architect & Cisco DevNet
+> Member: Saudi Council of Engineers (SCE) — Student Member
 ```
+
+<br>
+
+## Featured Projects
+
+<table align="center">
+  <tr>
+    <td align="center" width="50%" valign="top">
+      <a href="https://github.com/AbdulazizMashnawi-NET/Smart-University-Network-Design">
+        <img src="https://github-stats-extended.vercel.app/api/pin/?username=AbdulazizMashnawi-NET&repo=Smart-University-Network-Design&theme=github_dark&hide_border=true" />
+      </a>
+      <br>
+      <sub>3-tier campus network (Core/Distribution/Access): OSPFv2 + OSPFv3 dual-stack, VLANs &amp; 802.1Q, DHCP relay + IPv6 SLAAC, NAT, IoT server — Cisco Packet Tracer.</sub>
+    </td>
+    <td align="center" width="50%" valign="top">
+      <a href="https://github.com/AbdulazizMashnawi-NET/SecureChat-E2EE-Simulator">
+        <img src="https://github-stats-extended.vercel.app/api/pin/?username=AbdulazizMashnawi-NET&repo=SecureChat-E2EE-Simulator&theme=github_dark&hide_border=true" />
+      </a>
+      <br>
+      <sub>E2EE messaging simulator: RSA-2048/OAEP key exchange, AES-256-GCM, RSA-PSS signatures, MitM attack visualization — Flask + PyCryptodome.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%" valign="top">
+      <a href="https://github.com/AbdulazizMashnawi-NET/Jazan-Uni-SUC-Manager">
+        <img src="https://github-stats-extended.vercel.app/api/pin/?username=AbdulazizMashnawi-NET&repo=Jazan-Uni-SUC-Manager&theme=github_dark&hide_border=true" />
+      </a>
+      <br>
+      <sub>Offline-first timetable planner: parses saved portal HTML, detects section conflicts, ranks schedules by free days, exports image — vanilla JS, no backend.</sub>
+    </td>
+    <td align="center" width="50%" valign="top">
+      <a href="https://github.com/AbdulazizMashnawi-NET/Shipping-Company-Database">
+        <img src="https://github-stats-extended.vercel.app/api/pin/?username=AbdulazizMashnawi-NET&repo=Shipping-Company-Database&theme=github_dark&hide_border=true" />
+      </a>
+      <br>
+      <sub>Database design exercise: ER model → relational schema (departments, employees, shipments, customers, dependents), DDL/DML and reporting queries.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2" valign="top">
+      <a href="https://github.com/CNET463-Team-T01/zero-trust-hybrid-network-lab">
+        <img src="https://github-stats-extended.vercel.app/api/pin/?username=CNET463-Team-T01&repo=zero-trust-hybrid-network-lab&theme=github_dark&hide_border=true" />
+      </a>
+      <br>
+      <sub>Course team project (CNET-463, Team T01): NIST SP 800-207 assessment of a hybrid exam system — nftables micro-segmentation, PEP hardening, WireGuard scoping, verified with nmap/tcpdump. <b>My scope: Parts A &amp; B</b> (discovery, vulnerability assessment, host segmentation).</sub>
+    </td>
+  </tr>
+</table>
 
 <br>
 
@@ -40,19 +88,21 @@ Computer & Network Engineering Student @ Jazan University
     <td width="50%" valign="top">
       <h3>Network Architecture & Protocols</h3>
       <ul>
-        <li><b>3-Tier Hierarchical Design:</b> Core, Distribution, Access Layers</li>
-        <li><b>Routing & Switching:</b> Layer 3 Switching, VLAN Segmentation, Packet Switching</li>
-        <li><b>Resilience:</b> High Availability (HA) & Redundancy Planning</li>
-        <li><b>Simulation:</b> Cisco Packet Tracer & Network Topologies</li>
+        <li><b>3-Tier Design:</b> Core, Distribution, Access across 3 campus buildings</li>
+        <li><b>Routing:</b> OSPFv2 (IPv4) &amp; OSPFv3 (IPv6) dual-stack on multilayer switches</li>
+        <li><b>Switching:</b> VLAN segmentation &amp; 802.1Q trunking, inter-VLAN routing</li>
+        <li><b>IP Services:</b> DHCP pools with IP-helper, IPv6 SLAAC, NAT at the edge</li>
+        <li><b>Tooling:</b> Cisco Packet Tracer topologies, verification with show/ping/traceroute</li>
       </ul>
     </td>
     <td width="50%" valign="top">
       <h3>Security & Cryptography</h3>
       <ul>
-        <li><b>Encryption Protocols:</b> End-to-End Encryption (E2EE) Handshakes</li>
-        <li><b>Ciphers & Keys:</b> Public Key Cryptography (RSA), AES-GCM</li>
-        <li><b>Attack Simulation:</b> Man-in-the-Middle (MitM) Threat Vectors</li>
-        <li><b>Network Security:</b> Access Control, Traffic Hardening</li>
+        <li><b>E2EE:</b> RSA-2048/OAEP key exchange with AES-256-GCM payloads</li>
+        <li><b>Signatures:</b> RSA-PSS sender authentication; MitM interception demo</li>
+        <li><b>Zero Trust:</b> NIST SP 800-207 gap assessment, default-drop nftables rules</li>
+        <li><b>Verification:</b> nmap before/after scans, tcpdump packet-level proof</li>
+        <li><b>Network Security:</b> ACL-style rules, PEP policy checks, WireGuard scoping</li>
       </ul>
     </td>
   </tr>
@@ -60,19 +110,19 @@ Computer & Network Engineering Student @ Jazan University
     <td width="50%" valign="top">
       <h3>Linux Systems & Automation</h3>
       <ul>
-        <li><b>GNU/Linux OS:</b> System Administration, Components, Permissions</li>
-        <li><b>Shell Scripting:</b> Bash Automation, File & Backup Management</li>
-        <li><b>Python Engineering:</b> OOP (Inheritance, Polymorphism), Generators, PIP</li>
-        <li><b>DevOps & Tooling:</b> Git, GitHub, Docker, Postman</li>
+        <li><b>Administration:</b> users &amp; groups, permissions, packages, services, logs</li>
+        <li><b>Shell Scripting:</b> file handling, backup routines, repeatable task automation</li>
+        <li><b>Python:</b> OOP, Flask endpoints, PyCryptodome for crypto prototypes</li>
+        <li><b>Tooling:</b> Git/GitHub workflow, Docker Compose lab environments, Postman</li>
       </ul>
     </td>
     <td width="50%" valign="top">
       <h3>Database & Application Design</h3>
       <ul>
-        <li><b>RDBMS Lifecycle:</b> E-R Modeling, Relational Mapping, Schema Design</li>
-        <li><b>SQL Implementation:</b> DDL, DML, Complex Queries, Oracle DB</li>
-        <li><b>Web Utilities:</b> Client-Side UI, Conflict-Free Schedule Optimization</li>
-        <li><b>Emerging Tech:</b> Internet of Things (IoT), Cloud Fundamentals</li>
+        <li><b>Modeling:</b> ER diagrams mapped to normalized relational schemas</li>
+        <li><b>SQL:</b> DDL/DML, joins, subqueries, reporting queries on Oracle DB</li>
+        <li><b>Web Apps:</b> offline-first HTML/CSS/JS with client-side parsing &amp; conflict detection</li>
+        <li><b>Privacy by Design:</b> local data processing, no server-side storage</li>
       </ul>
     </td>
   </tr>
@@ -82,7 +132,7 @@ Computer & Network Engineering Student @ Jazan University
 
 ## Certifications & Credentials
 
-**Verified Badges:**
+**Verified course badges** (Cisco Networking Academy, via Credly):
 <p align="left">
   <a href="https://www.credly.com/badges/a179547a-c579-40ab-8325-c3c371f5c499/public_url" target="_blank">
     <img src="python-essentials-1.png" alt="Cisco Python Essentials 1" width="80" />
@@ -101,15 +151,19 @@ Computer & Network Engineering Student @ Jazan University
   </a>
 </p>
 
-**Professional Affiliations & Targets:**
+<sub>These are course-completion badges, not professional certifications. CCNA 200-301 is my next exam target.</sub>
+
+<br><br>
+
+**Professional membership & next certifications:**
 <p align="left">
   <img src="https://img.shields.io/badge/SCE-Student_Member-008080?style=flat-square&logo=shield&logoColor=white" alt="SCE Member" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Target-CCNA_(200--301)-005073?style=flat-square&logo=cisco&logoColor=white" alt="CCNA Goal" />
+  <img src="https://img.shields.io/badge/Next-CCNA_(200--301)-005073?style=flat-square&logo=cisco&logoColor=white" alt="CCNA Goal" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Target-AWS_Certified-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS Goal" />
+  <img src="https://img.shields.io/badge/Planned-AWS_Certified-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS Goal" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Target-Cisco_DevNet-049fd9?style=flat-square&logo=cisco&logoColor=white" alt="DevNet Goal" />
+  <img src="https://img.shields.io/badge/Planned-Cisco_DevNet-049fd9?style=flat-square&logo=cisco&logoColor=white" alt="DevNet Goal" />
 </p>
 
 <br>
@@ -119,52 +173,29 @@ Computer & Network Engineering Student @ Jazan University
 <table>
   <tr>
     <th align="center" width="33%">Languages &amp; Scripting</th>
-    <th align="center" width="33%">Systems, Cloud &amp; Networking</th>
-    <th align="center" width="33%">Databases &amp; Web Stack</th>
+    <th align="center" width="33%">Systems, Networking &amp; Tooling</th>
+    <th align="center" width="33%">Databases &amp; Web</th>
   </tr>
   <tr>
     <td align="center" valign="top">
       <br>
-      <img src="https://skillicons.dev/icons?i=python,bash,c,cpp,ts,js&perline=3" alt="Languages" />
+      <img src="https://skillicons.dev/icons?i=python,bash,c,cpp,js&perline=3" alt="Languages" />
       <br><br>
     </td>
     <td align="center" valign="top">
       <br>
-      <img src="https://skillicons.dev/icons?i=linux,docker,aws,git,github,postman&perline=3" alt="Systems & Cloud" />
+      <img src="https://skillicons.dev/icons?i=linux,docker,git,github,postman,vscode&perline=3" alt="Systems & Tooling" />
       <br><br>
     </td>
     <td align="center" valign="top">
       <br>
-      <img src="https://skillicons.dev/icons?i=mysql,postgres,html,css,nodejs,vscode&perline=3" alt="Databases & Web" />
+      <img src="https://skillicons.dev/icons?i=mysql,postgres,flask,html,css&perline=3" alt="Databases & Web" />
       <br><br>
     </td>
   </tr>
 </table>
 
-<br>
-
-## Featured Projects
-
-<div align="center">
-  <a href="https://github.com/AbdulazizMashnawi-NET/Smart-University-Network-Design">
-    <img src="https://github-stats-extended.vercel.app/api/pin/?username=AbdulazizMashnawi-NET&repo=Smart-University-Network-Design&theme=github_dark&hide_border=true" />
-  </a>
-  <a href="https://github.com/AbdulazizMashnawi-NET/SecureChat-E2EE-Simulator">
-    <img src="https://github-stats-extended.vercel.app/api/pin/?username=AbdulazizMashnawi-NET&repo=SecureChat-E2EE-Simulator&theme=github_dark&hide_border=true" />
-  </a>
-</div>
-<br>
-<div align="center">
-  <a href="https://github.com/AbdulazizMashnawi-NET/Jazan-Uni-SUC-Manager">
-    <img src="https://github-stats-extended.vercel.app/api/pin/?username=AbdulazizMashnawi-NET&repo=Jazan-Uni-SUC-Manager&theme=github_dark&hide_border=true" />
-  </a>
-  <a href="https://github.com/AbdulazizMashnawi-NET/Shipping-Company-Database">
-    <img src="https://github-stats-extended.vercel.app/api/pin/?username=AbdulazizMashnawi-NET&repo=Shipping-Company-Database&theme=github_dark&hide_border=true" />
-  </a>
-   <a href="https://github.com/AbdulazizMashnawi-NET/zero-trust-hybrid-network-lab">
-    <img src="https://github-stats-extended.vercel.app/api/pin/?username=AbdulazizMashnawi-NET&repo=zero-trust-hybrid-network-lab&theme=github_dark&hide_border=true" />
-  </a>
-</div>
+<sub><b>Learning next:</b> AWS (Solutions Architect Associate track), Cisco DevNet automation.</sub>
 
 <br>
 
