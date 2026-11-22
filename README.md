@@ -54,6 +54,9 @@ Computer & Network Engineering Student @ Jazan University
 <a href="https://github.com/CNET463-Team-T01/zero-trust-hybrid-network-lab">
   <img src="https://github-stats-extended.vercel.app/api/pin/?username=CNET463-Team-T01&repo=zero-trust-hybrid-network-lab&theme=github_dark&hide_border=true" />
 </a>
+<a href="https://github.com/CNET463-Team-T01/exposure-incident-response-assurance">
+  <img src="https://github-stats-extended.vercel.app/api/pin/?username=CNET463-Team-T01&repo=exposure-incident-response-assurance&theme=github_dark&hide_border=true" />
+</a>
 
 </div>
 
