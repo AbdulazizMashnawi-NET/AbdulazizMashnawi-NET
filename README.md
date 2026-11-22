@@ -35,98 +35,57 @@ Computer & Network Engineering Student @ Jazan University
 
 ## Featured Projects
 
-<table align="center">
-  <tr>
-    <td align="center" width="50%" valign="top">
-      <a href="https://github.com/AbdulazizMashnawi-NET/Smart-University-Network-Design">
-        <img src="https://github-stats-extended.vercel.app/api/pin/?username=AbdulazizMashnawi-NET&repo=Smart-University-Network-Design&theme=github_dark&hide_border=true" />
-      </a>
-      <br>
-      <sub>3-tier campus network (Core/Distribution/Access): OSPFv2 + OSPFv3 dual-stack, VLANs &amp; 802.1Q, DHCP relay + IPv6 SLAAC, NAT, IoT server — Cisco Packet Tracer.</sub>
-    </td>
-    <td align="center" width="50%" valign="top">
-      <a href="https://github.com/AbdulazizMashnawi-NET/SecureChat-E2EE-Simulator">
-        <img src="https://github-stats-extended.vercel.app/api/pin/?username=AbdulazizMashnawi-NET&repo=SecureChat-E2EE-Simulator&theme=github_dark&hide_border=true" />
-      </a>
-      <br>
-      <sub>E2EE messaging simulator: RSA-2048/OAEP key exchange, AES-256-GCM, RSA-PSS signatures, MitM attack visualization — Flask + PyCryptodome.</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%" valign="top">
-      <a href="https://github.com/AbdulazizMashnawi-NET/Jazan-Uni-SUC-Manager">
-        <img src="https://github-stats-extended.vercel.app/api/pin/?username=AbdulazizMashnawi-NET&repo=Jazan-Uni-SUC-Manager&theme=github_dark&hide_border=true" />
-      </a>
-      <br>
-      <sub>Offline-first timetable planner: parses saved portal HTML, detects section conflicts, ranks schedules by free days, exports image — vanilla JS, no backend.</sub>
-    </td>
-    <td align="center" width="50%" valign="top">
-      <a href="https://github.com/AbdulazizMashnawi-NET/Shipping-Company-Database">
-        <img src="https://github-stats-extended.vercel.app/api/pin/?username=AbdulazizMashnawi-NET&repo=Shipping-Company-Database&theme=github_dark&hide_border=true" />
-      </a>
-      <br>
-      <sub>Database design exercise: ER model → relational schema (departments, employees, shipments, customers, dependents), DDL/DML and reporting queries.</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" colspan="2" valign="top">
-      <a href="https://github.com/CNET463-Team-T01/zero-trust-hybrid-network-lab">
-        <img src="https://github-stats-extended.vercel.app/api/pin/?username=CNET463-Team-T01&repo=zero-trust-hybrid-network-lab&theme=github_dark&hide_border=true" />
-      </a>
-      <br>
-      <sub>Course team project (CNET-463, Team T01): NIST SP 800-207 assessment of a hybrid exam system — nftables micro-segmentation, PEP hardening, WireGuard scoping, verified with nmap/tcpdump. <b>My scope: Parts A &amp; B</b> (discovery, vulnerability assessment, host segmentation).</sub>
-    </td>
-  </tr>
-</table>
+<div align="center">
+
+<a href="https://github.com/AbdulazizMashnawi-NET/Smart-University-Network-Design">
+  <img src="https://github-stats-extended.vercel.app/api/pin/?username=AbdulazizMashnawi-NET&repo=Smart-University-Network-Design&theme=github_dark&hide_border=true" />
+</a>
+<a href="https://github.com/AbdulazizMashnawi-NET/SecureChat-E2EE-Simulator">
+  <img src="https://github-stats-extended.vercel.app/api/pin/?username=AbdulazizMashnawi-NET&repo=SecureChat-E2EE-Simulator&theme=github_dark&hide_border=true" />
+</a>
+
+<a href="https://github.com/AbdulazizMashnawi-NET/Jazan-Uni-SUC-Manager">
+  <img src="https://github-stats-extended.vercel.app/api/pin/?username=AbdulazizMashnawi-NET&repo=Jazan-Uni-SUC-Manager&theme=github_dark&hide_border=true" />
+</a>
+<a href="https://github.com/AbdulazizMashnawi-NET/Shipping-Company-Database">
+  <img src="https://github-stats-extended.vercel.app/api/pin/?username=AbdulazizMashnawi-NET&repo=Shipping-Company-Database&theme=github_dark&hide_border=true" />
+</a>
+
+<a href="https://github.com/CNET463-Team-T01/zero-trust-hybrid-network-lab">
+  <img src="https://github-stats-extended.vercel.app/api/pin/?username=CNET463-Team-T01&repo=zero-trust-hybrid-network-lab&theme=github_dark&hide_border=true" />
+</a>
+
+</div>
 
 <br>
 
 ## Core Engineering Domains
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>Network Architecture & Protocols</h3>
-      <ul>
-        <li><b>3-Tier Design:</b> Core, Distribution, Access across 3 campus buildings</li>
-        <li><b>Routing:</b> OSPFv2 (IPv4) &amp; OSPFv3 (IPv6) dual-stack on multilayer switches</li>
-        <li><b>Switching:</b> VLAN segmentation &amp; 802.1Q trunking, inter-VLAN routing</li>
-        <li><b>IP Services:</b> DHCP pools with IP-helper, IPv6 SLAAC, NAT at the edge</li>
-        <li><b>Tooling:</b> Cisco Packet Tracer topologies, verification with show/ping/traceroute</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3>Security & Cryptography</h3>
-      <ul>
-        <li><b>E2EE:</b> RSA-2048/OAEP key exchange with AES-256-GCM payloads</li>
-        <li><b>Signatures:</b> RSA-PSS sender authentication; MitM interception demo</li>
-        <li><b>Zero Trust:</b> NIST SP 800-207 gap assessment, default-drop nftables rules</li>
-        <li><b>Verification:</b> nmap before/after scans, tcpdump packet-level proof</li>
-        <li><b>Network Security:</b> ACL-style rules, PEP policy checks, WireGuard scoping</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>Linux Systems & Automation</h3>
-      <ul>
-        <li><b>Administration:</b> users &amp; groups, permissions, packages, services, logs</li>
-        <li><b>Shell Scripting:</b> file handling, backup routines, repeatable task automation</li>
-        <li><b>Python:</b> OOP, Flask endpoints, PyCryptodome for crypto prototypes</li>
-        <li><b>Tooling:</b> Git/GitHub workflow, Docker Compose lab environments, Postman</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3>Database & Application Design</h3>
-      <ul>
-        <li><b>Modeling:</b> ER diagrams mapped to normalized relational schemas</li>
-        <li><b>SQL:</b> DDL/DML, joins, subqueries, reporting queries on Oracle DB</li>
-        <li><b>Web Apps:</b> offline-first HTML/CSS/JS with client-side parsing &amp; conflict detection</li>
-        <li><b>Privacy by Design:</b> local data processing, no server-side storage</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+### 🌐 Network Architecture & Protocols
+- **3-Tier Design:** Core, Distribution, Access across 3 campus buildings
+- **Routing:** OSPFv2 (IPv4) & OSPFv3 (IPv6) dual-stack on multilayer switches
+- **Switching:** VLAN segmentation & 802.1Q trunking, inter-VLAN routing
+- **IP Services:** DHCP pools with IP-helper, IPv6 SLAAC, NAT at the edge
+- **Tooling:** Cisco Packet Tracer topologies, verification with show/ping/traceroute
+
+### 🔒 Security & Cryptography
+- **E2EE:** RSA-2048/OAEP key exchange with AES-256-GCM payloads
+- **Signatures:** RSA-PSS sender authentication; MitM interception demo
+- **Zero Trust:** NIST SP 800-207 gap assessment, default-drop nftables rules
+- **Verification:** nmap before/after scans, tcpdump packet-level proof
+- **Network Security:** ACL-style rules, PEP policy checks, WireGuard scoping
+
+### 🐧 Linux Systems & Automation
+- **Administration:** users & groups, permissions, packages, services, logs
+- **Shell Scripting:** file handling, backup routines, repeatable task automation
+- **Python:** OOP, Flask endpoints, PyCryptodome for crypto prototypes
+- **Tooling:** Git/GitHub workflow, Docker Compose lab environments, Postman
+
+### 🗄️ Database & Application Design
+- **Modeling:** ER diagrams mapped to normalized relational schemas
+- **SQL:** DDL/DML, joins, subqueries, reporting queries on Oracle DB
+- **Web Apps:** offline-first HTML/CSS/JS with client-side parsing & conflict detection
+- **Privacy by Design:** local data processing, no server-side storage
 
 <br>
 
