@@ -61,27 +61,27 @@ Computer & Network Engineering Student @ Jazan University
 
 ## Core Engineering Domains
 
-### 🌐 Network Architecture & Protocols
+### Network Architecture & Protocols
 - **3-Tier Design:** Core, Distribution, Access across 3 campus buildings
 - **Routing:** OSPFv2 (IPv4) & OSPFv3 (IPv6) dual-stack on multilayer switches
 - **Switching:** VLAN segmentation & 802.1Q trunking, inter-VLAN routing
 - **IP Services:** DHCP pools with IP-helper, IPv6 SLAAC, NAT at the edge
 - **Tooling:** Cisco Packet Tracer topologies, verification with show/ping/traceroute
 
-### 🔒 Security & Cryptography
+### Security & Cryptography
 - **E2EE:** RSA-2048/OAEP key exchange with AES-256-GCM payloads
 - **Signatures:** RSA-PSS sender authentication; MitM interception demo
 - **Zero Trust:** NIST SP 800-207 gap assessment, default-drop nftables rules
 - **Verification:** nmap before/after scans, tcpdump packet-level proof
 - **Network Security:** ACL-style rules, PEP policy checks, WireGuard scoping
 
-### 🐧 Linux Systems & Automation
+### Linux Systems & Automation
 - **Administration:** users & groups, permissions, packages, services, logs
 - **Shell Scripting:** file handling, backup routines, repeatable task automation
 - **Python:** OOP, Flask endpoints, PyCryptodome for crypto prototypes
 - **Tooling:** Git/GitHub workflow, Docker Compose lab environments, Postman
 
-### 🗄️ Database & Application Design
+### Database & Application Design
 - **Modeling:** ER diagrams mapped to normalized relational schemas
 - **SQL:** DDL/DML, joins, subqueries, reporting queries on Oracle DB
 - **Web Apps:** offline-first HTML/CSS/JS with client-side parsing & conflict detection
